@@ -10,7 +10,7 @@ function Login() {
   const handleLogin = (e) => {
     e.preventDefault();
     // Dummy authentication
-    if (email === "test@example.com" && password === "password") {
+    if (email === "samruddhi@example.com" && password === "password") {
       navigate("/main"); // Redirect to Main Page
     } else {
       alert("Invalid credentials");
